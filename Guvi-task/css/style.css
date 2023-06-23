@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #989898;
+    }
+
+  /* Center the form on the page */
+  form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  }
+
+  /* Style the form header */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+  }
+
+  /* Style the form labels */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+    font-size: 18px;
+  }
+
+
+  /* Style the form input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+
+  /* Style the submit button */
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  /* Change the submit button color on hover */
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+input[type="tel"],
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
